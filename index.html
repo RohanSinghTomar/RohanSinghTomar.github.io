@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="base-img-container">
+            <img src="base.jpg" height="635" width="900">
+        </div>
+
+        <div id="signup-form">
+            <div id="logo-container">
+                <img src="logo.png" height="100">
+            </div>
+
+            <form>
+                <input type="text" id="username" name="email" placeholder="Username"><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <input type="tel" id="mobile" name="mobile" placeholder="Phone Number"><br><br>
+                <label id="gender" for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male" checked="checked">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="male">Female</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password"><br>
+                <button type="button" onclick="signup()" id="btn-signup">Signup</button>
+            </form>
+
+            <div id="already">
+                <a href="login.html">Already have an account</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

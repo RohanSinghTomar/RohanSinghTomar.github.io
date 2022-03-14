@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#base-img-container {
+    height: 822;
+    width: 1024;
+}
+
+#signup-form {
+    background-color: white;
+}
+
+#logo-container{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#username {
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 25px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 25px;
+}
+
+#mobile {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 25px;
+}
+
+#gender {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#remember {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#password {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 25px;
+}
+
+#confirm_password {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 25px;
+}
+
+#btn-signup {
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#already {
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+#new-account {
+    margin-top: 15px;
+    margin-left: 40px;
+}
